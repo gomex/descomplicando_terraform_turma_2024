@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "descomplicando-terraform-turma-2024"
-    key    = "aula_modules"
+    key    = "aula_mv_lifecycle_dependes_on"
     region = "us-east-1"
   }
   required_providers {
